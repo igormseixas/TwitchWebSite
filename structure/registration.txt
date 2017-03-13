@@ -1,0 +1,12 @@
+
+/**
+  * Registration Information
+  */
+  
+  01- Name
+  02- Birthday
+  03- E-mail
+  04.1- User
+  04.2- Password
+  05- Games (CS,DOTA,ARK,OTHERs)
+  06- Address (City, State, County)

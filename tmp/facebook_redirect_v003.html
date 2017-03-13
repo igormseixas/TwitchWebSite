@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Facebook</title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+      body {
+        background: url(images/wide_redirect_face.png) no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+  <script language= "JavaScript">
+	 // funcoes window.open retornam null, caso diferente considera verdadeiro
+	 if ( window.open("http://www.facebook.com/fernanda.teixeira95") && window.open("http://www.facebook.com/igormseixas") )
+	 {
+     window.close( );
+	 }
+
+	 function redirect()
+	 {
+     window.open("http://www.facebook.com/igormseixas");
+	   location.href="http://www.facebook.com/fernanda.teixeira95"
+	   //window.open("http://www.facebook.com/fernanda.teixeira95");
+	 }
+  </script>
+
+  <a href="javascript:redirect()">aqui </a>
+
+ </body>
+</html>

@@ -1,0 +1,1 @@
+ftp://waws-prod-cq1-007.ftp.azurewebsites.windows.net

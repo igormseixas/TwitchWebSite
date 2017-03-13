@@ -1,0 +1,6 @@
+
+
+Modify button area to only one buttun "ENTRAR" with "remember pass" and "registrar"
+
+
+Do create_account css

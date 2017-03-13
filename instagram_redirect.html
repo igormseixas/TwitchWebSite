@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Instagram</title>
+    <meta charset="utf-8">
+
+
+<!-- CSS Definition -------------------------------------------->
+    <style type="text/css">
+    body, html {
+      background: url(images/wide_redirect_insta.jpg) no-repeat center top fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+     }
+     #logo_insta {
+	    position: absolute;
+	    left: 76%; /* posiciona a 76% para a esquerda */
+	    top: 31%; /* posiciona a 39% para baixo */
+	   }
+    </style>
+<!---------------------------------------------------------------->
+<!-- JavaScript Definition --------------------------------------->
+    <script language= "JavaScript">
+  	 // funcoes window.open retornam null, caso diferente considera verdadeiro
+  	 if ( window.open("https://www.instagram.com/fehtx") && window.open("https://www.instagram.com/igormseixas") )
+  	 {
+       window.close( );
+  	 }
+
+  	 function redirect()
+  	 {
+       window.open("https://www.instagram.com/igormseixas/");
+       window.location.replace("https://www.instagram.com/fehtx");
+  	 }
+    </script>
+<!---------------------------------------------------------------->
+
+  </head>
+
+  <body>
+    <div id="site">
+        <a href="#" onclick="javascript:redirect()">
+        <img border="0" src="images/icon_insta.png" align="left" width="120" height="90" id="logo_insta">
+    </div>
+ </body>
+</html>

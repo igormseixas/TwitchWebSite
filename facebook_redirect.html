@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Facebook</title>
+    <meta charset="utf-8">
+
+
+<!-- CSS Definition -------------------------------------------->
+    <style type="text/css">
+    body, html {
+      background: url(images/wide_redirect_face.jpg) no-repeat center top fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+     }
+     #logo_face {
+	    position: absolute;
+	    left: 76%; /* posiciona a 76% para a esquerda */
+	    top: 29%; /* posiciona a 39% para baixo */
+	   }
+    </style>
+<!---------------------------------------------------------------->
+<!-- JavaScript Definition --------------------------------------->
+    <script language= "JavaScript">
+  	 // funcoes window.open retornam null, caso diferente considera verdadeiro
+  	 if ( window.open("http://www.facebook.com/fernanda.teixeira95") && window.open("http://www.facebook.com/igormseixas") )
+  	 {
+       window.close( );
+  	 }
+
+  	 function redirect()
+  	 {
+       window.open("http://www.facebook.com/igormseixas");
+       window.location.replace("http://www.facebook.com/fernanda.teixeira95");
+       //location.href="http://www.facebook.com/fernanda.teixeira95"
+  	   //window.open("http://www.facebook.com/fernanda.teixeira95");
+  	 }
+    </script>
+<!---------------------------------------------------------------->
+
+  </head>
+
+  <body>
+    <div id="site">
+        <a href="#" onclick="javascript:redirect()">
+        <img border="0" src="images/icon_face.png" align="left" width="120" height="90" id="logo_face">
+    </div>
+ </body>
+</html>
